@@ -1,4 +1,5 @@
 ## Utopia Engine
+![github-small](Utopia/Resources/Showcase1.png)
 This project was a part of my last high school assignment (Gymnasiearbete). The main goal of the project was to learn about different algorithms for handling lights and shadows in 3D computer graphics. I had minor experience with C++ prior to this project, and was mostly familiar with Java and C#.
 The project started by following a Youtube tutorial from ["thebennybox"](https://www.youtube.com/watch?v=ftiKrP3gW3k&list=PLEETnX-uPtBXT9T-hD0Bj31DSnwio-ywh) which gave me an introduction to how OpenGL and realtime rendering works. 
 After the tutorial, I used different resources such as [learnopengl.com](https://learnopengl.com/) to further expand upon the project and implement the different algorithms.
