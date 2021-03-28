@@ -70,7 +70,7 @@ StyleCopReport.xml
 *_h.h
 *.ilk
 *.meta
-*.obj
+#*.obj # Model files are OBJ and have to be kept
 *.iobj
 *.pch
 *.pdb
