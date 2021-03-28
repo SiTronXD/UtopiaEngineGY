@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b9a44d39-7758-400d-b313-b17906ce3079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{3621cacc-591c-4091-b383-e90a2b27c386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{63737ad0-64ce-40fc-8304-887dddd8fccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{5675896e-9d93-4458-9e21-f0444a24d8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DefaultPolygons">
+      <UniqueIdentifier>{e8ca4ce2-2198-4880-ad64-929f6294822f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components">
+      <UniqueIdentifier>{bb0ef9fc-431b-4169-9359-4784206d24c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\CustomShaderPrograms">
+      <UniqueIdentifier>{f92c2874-903a-480a-8b5d-5a3ec9f29639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Lights">
+      <UniqueIdentifier>{fcda77ab-b4f7-4e95-a826-b6f8336b3dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Debugging">
+      <UniqueIdentifier>{cba89e0a-034a-452c-95f8-4cabb8ff0fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Loaders">
+      <UniqueIdentifier>{b092b79c-01be-4c24-924b-bba9d3141786}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\GYScreenQuadShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\GYShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\NoLightShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\NormalBufferShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\RayMarcherShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\RealLightShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\ReflectanceDepthShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\ReflectShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\RenderReflectanceShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\ShadowMapShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\SkyboxShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShaderPrograms\ViewPosShader.cpp">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\Shader.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Debugging\Log.cpp">
+      <Filter>Engine\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\Mesh.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\Texture.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\Transform.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\DefaultPolygons\Cube.cpp">
+      <Filter>Engine\DefaultPolygons</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\DefaultPolygons\Plane.cpp">
+      <Filter>Engine\DefaultPolygons</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\DefaultPolygons\Renderable.cpp">
+      <Filter>Engine\DefaultPolygons</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Lights\SpotLight.cpp">
+      <Filter>Engine\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Loaders\obj_loader.cpp">
+      <Filter>Engine\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Loaders\stb_image.c">
+      <Filter>Engine\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\GYCube.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\GYInvertedCube.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\GYModel.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\GYPlane.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\PlayerSpectateController.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\GYState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\RayMarcherState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\TestState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\AppHandler.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Display.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameState.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameStateManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Model.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ScreenQuad.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SMath.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextureRegion.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Vertex.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CustomShaderPrograms\GYScreenQuadShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\GYShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\NoLightShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\NormalBufferShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\RayMarcherShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\RealLightShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\ReflectanceDepthShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\ReflectShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\RenderReflectanceShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\ShadowMapShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\SkyboxShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomShaderPrograms\ViewPosShader.h">
+      <Filter>Shaders\CustomShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\Shader.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Debugging\Log.h">
+      <Filter>Engine\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\Mesh.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\Texture.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\Transform.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\DefaultPolygons\Cube.h">
+      <Filter>Engine\DefaultPolygons</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\DefaultPolygons\Plane.h">
+      <Filter>Engine\DefaultPolygons</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\DefaultPolygons\Renderable.h">
+      <Filter>Engine\DefaultPolygons</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Lights\SpotLight.h">
+      <Filter>Engine\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Loaders\obj_loader.h">
+      <Filter>Engine\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Loaders\stb_image.h">
+      <Filter>Engine\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\GYCube.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\GYInvertedCube.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\GYModel.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\GYPlane.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\PlayerSpectateController.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates\GYState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates\RayMarcherState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates\TestState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\AppHandler.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Display.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameState.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameStateManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Model.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ScreenQuad.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SMath.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextureRegion.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Vertex.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoLightFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\NoLightVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\RedFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\RedVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\RayMarcherFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\RayMarcherVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\GYFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\GYVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\RealFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\RealVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\GYScreenQuadFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\GYScreenQuadVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\ShadowMapFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\ShadowMapVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\SkyboxFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\SkyboxVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\ReflectFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\ReflectVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\NormalBufferFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\NormalBufferVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\ReflectanceDepthFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\ReflectanceDepthVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\ViewPosFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\ViewPosVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\RenderReflectanceFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\RenderReflectanceVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

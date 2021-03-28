@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CustomShaderPrograms\GYScreenQuadShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\GYShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\NoLightShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\NormalBufferShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\RayMarcherShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\RealLightShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\ReflectanceDepthShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\ReflectShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\RenderReflectanceShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\ShadowMapShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\SkyboxShader.cpp" />
+    <ClCompile Include="CustomShaderPrograms\ViewPosShader.cpp" />
+    <ClCompile Include="Engine\AppHandler.cpp" />
+    <ClCompile Include="Engine\Camera.cpp" />
+    <ClCompile Include="Engine\Components\Mesh.cpp" />
+    <ClCompile Include="Engine\Components\Shader.cpp" />
+    <ClCompile Include="Engine\Components\Texture.cpp" />
+    <ClCompile Include="Engine\Components\Transform.cpp" />
+    <ClCompile Include="Engine\Debugging\Log.cpp" />
+    <ClCompile Include="Engine\DefaultPolygons\Cube.cpp" />
+    <ClCompile Include="Engine\DefaultPolygons\Plane.cpp" />
+    <ClCompile Include="Engine\DefaultPolygons\Renderable.cpp" />
+    <ClCompile Include="Engine\Display.cpp" />
+    <ClCompile Include="Engine\Game.cpp" />
+    <ClCompile Include="Engine\GameState.cpp" />
+    <ClCompile Include="Engine\GameStateManager.cpp" />
+    <ClCompile Include="Engine\Input.cpp" />
+    <ClCompile Include="Engine\Lights\SpotLight.cpp" />
+    <ClCompile Include="Engine\Loaders\obj_loader.cpp" />
+    <ClCompile Include="Engine\Loaders\stb_image.c" />
+    <ClCompile Include="Engine\Model.cpp" />
+    <ClCompile Include="Engine\ScreenQuad.cpp" />
+    <ClCompile Include="Engine\SMath.cpp" />
+    <ClCompile Include="Engine\TextureRegion.cpp" />
+    <ClCompile Include="Engine\Vertex.cpp" />
+    <ClCompile Include="Entities\GYCube.cpp" />
+    <ClCompile Include="Entities\GYInvertedCube.cpp" />
+    <ClCompile Include="Entities\GYModel.cpp" />
+    <ClCompile Include="Entities\GYPlane.cpp" />
+    <ClCompile Include="Entities\PlayerSpectateController.cpp" />
+    <ClCompile Include="GameStates\GYState.cpp" />
+    <ClCompile Include="GameStates\RayMarcherState.cpp" />
+    <ClCompile Include="GameStates\TestState.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CustomShaderPrograms\GYScreenQuadShader.h" />
+    <ClInclude Include="CustomShaderPrograms\GYShader.h" />
+    <ClInclude Include="CustomShaderPrograms\NoLightShader.h" />
+    <ClInclude Include="CustomShaderPrograms\NormalBufferShader.h" />
+    <ClInclude Include="CustomShaderPrograms\RayMarcherShader.h" />
+    <ClInclude Include="CustomShaderPrograms\RealLightShader.h" />
+    <ClInclude Include="CustomShaderPrograms\ReflectanceDepthShader.h" />
+    <ClInclude Include="CustomShaderPrograms\ReflectShader.h" />
+    <ClInclude Include="CustomShaderPrograms\RenderReflectanceShader.h" />
+    <ClInclude Include="CustomShaderPrograms\ShadowMapShader.h" />
+    <ClInclude Include="CustomShaderPrograms\SkyboxShader.h" />
+    <ClInclude Include="CustomShaderPrograms\ViewPosShader.h" />
+    <ClInclude Include="Engine\AppHandler.h" />
+    <ClInclude Include="Engine\Camera.h" />
+    <ClInclude Include="Engine\Components\Mesh.h" />
+    <ClInclude Include="Engine\Components\Shader.h" />
+    <ClInclude Include="Engine\Components\Texture.h" />
+    <ClInclude Include="Engine\Components\Transform.h" />
+    <ClInclude Include="Engine\Debugging\Log.h" />
+    <ClInclude Include="Engine\DefaultPolygons\Cube.h" />
+    <ClInclude Include="Engine\DefaultPolygons\Plane.h" />
+    <ClInclude Include="Engine\DefaultPolygons\Renderable.h" />
+    <ClInclude Include="Engine\Display.h" />
+    <ClInclude Include="Engine\Game.h" />
+    <ClInclude Include="Engine\GameState.h" />
+    <ClInclude Include="Engine\GameStateManager.h" />
+    <ClInclude Include="Engine\Input.h" />
+    <ClInclude Include="Engine\Lights\SpotLight.h" />
+    <ClInclude Include="Engine\Loaders\obj_loader.h" />
+    <ClInclude Include="Engine\Loaders\stb_image.h" />
+    <ClInclude Include="Engine\Model.h" />
+    <ClInclude Include="Engine\ScreenQuad.h" />
+    <ClInclude Include="Engine\SMath.h" />
+    <ClInclude Include="Engine\TextureRegion.h" />
+    <ClInclude Include="Engine\Vertex.h" />
+    <ClInclude Include="Entities\GYCube.h" />
+    <ClInclude Include="Entities\GYInvertedCube.h" />
+    <ClInclude Include="Entities\GYModel.h" />
+    <ClInclude Include="Entities\GYPlane.h" />
+    <ClInclude Include="Entities\PlayerSpectateController.h" />
+    <ClInclude Include="GameStates\GYState.h" />
+    <ClInclude Include="GameStates\RayMarcherState.h" />
+    <ClInclude Include="GameStates\TestState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoLightFragmentShader.glsl" />
+    <None Include="Resources\NoLightVertexShader.glsl" />
+    <None Include="Resources\RedFragmentShader.glsl" />
+    <None Include="Resources\RedVertexShader.glsl" />
+    <None Include="Resources\Shaders\GYFragmentShader.glsl" />
+    <None Include="Resources\Shaders\GYScreenQuadFragmentShader.glsl" />
+    <None Include="Resources\Shaders\GYScreenQuadVertexShader.glsl" />
+    <None Include="Resources\Shaders\GYVertexShader.glsl" />
+    <None Include="Resources\Shaders\NormalBufferFragmentShader.glsl" />
+    <None Include="Resources\Shaders\NormalBufferVertexShader.glsl" />
+    <None Include="Resources\Shaders\RayMarcherFragmentShader.glsl" />
+    <None Include="Resources\Shaders\RayMarcherVertexShader.glsl" />
+    <None Include="Resources\Shaders\RealFragmentShader.glsl" />
+    <None Include="Resources\Shaders\RealVertexShader.glsl" />
+    <None Include="Resources\Shaders\ReflectanceDepthFragmentShader.glsl" />
+    <None Include="Resources\Shaders\ReflectanceDepthVertexShader.glsl" />
+    <None Include="Resources\Shaders\ReflectFragmentShader.glsl" />
+    <None Include="Resources\Shaders\ReflectVertexShader.glsl" />
+    <None Include="Resources\Shaders\RenderReflectanceFragmentShader.glsl" />
+    <None Include="Resources\Shaders\RenderReflectanceVertexShader.glsl" />
+    <None Include="Resources\Shaders\ShadowMapFragmentShader.glsl" />
+    <None Include="Resources\Shaders\ShadowMapVertexShader.glsl" />
+    <None Include="Resources\Shaders\SkyboxFragmentShader.glsl" />
+    <None Include="Resources\Shaders\SkyboxVertexShader.glsl" />
+    <None Include="Resources\Shaders\ViewPosFragmentShader.glsl" />
+    <None Include="Resources\Shaders\ViewPosVertexShader.glsl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6C352FCC-1897-405B-A643-7C4840CF8966}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Utopia</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
