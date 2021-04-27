@@ -24,4 +24,4 @@ It is recommended to use Visual Studio 2017 or 2019. While both x64 and x86 buil
 A first-person camera can be controlled when running the project. "WASDEQ" keys will move the camera while the mouse will rotate it. Pressing "R" will switch between the final and default shaders to visualize how the implemented algorithms affects the scene.
 
 ## Report
-A report was written as part of the school assignment. It goes in detail about each feature listed above. You can read it [here](https://drive.google.com/file/d/13NIolz76D7zeJDDkTpxawwOKp9tclkq_/view?usp=sharing) (it's in swedish).
+A report was written as part of the school assignment. It goes in detail about each feature listed above. You can [read it here](https://drive.google.com/file/d/13NIolz76D7zeJDDkTpxawwOKp9tclkq_/view?usp=sharing) (it's in swedish).
